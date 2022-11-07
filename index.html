@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prvi zadatak</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Digitron</legend>
+        <label for="prvi-broj">Prvi broj</label>
+        <input type="number" id="prvi-broj" value="0">
+        <label for="operacija">Operacija</label>
+        <select name="operacija" id="operacija">
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">x</option>
+            <option value="4">/</option>
+        </select>
+        <label for="drugi-broj">Drugi broj</label>
+        <input type="number" id="drugi-broj" value="0">
+        <button id="dugme">Rezultat</button>
+        <br>
+        <label for="konacan">Konačan rezultat:</label>
+        <span id="konacan"></span>
+    </fieldset>
+    <script src="app.js"></script>
+</body>
+</html>
